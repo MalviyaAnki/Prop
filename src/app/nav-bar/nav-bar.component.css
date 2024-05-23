@@ -1,0 +1,48 @@
+header {
+  font-family: 'Times New Roman', Times, serif;
+  height: 70px;
+  background-color: rgb(34, 35, 35);
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  margin-left: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 19px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: blueviolet;
+  font-weight: bold; /* Adjusted font weight */
+}
+
+.image {
+  margin-bottom: 5px;
+  margin-left: 52px;
+}
+
+.image img {
+  max-width: 110px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
